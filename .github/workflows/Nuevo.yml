@@ -15,5 +15,3 @@ jobs:
 
       - name: Validar archivos markdown
         uses: DavidAnson/markdownlint-cli2-action@v20
-        with:
-          config: .markdownlint.json
