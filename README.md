@@ -1,1 +1,3 @@
-## Repositorio exclusivo para evaluacion formativa de devops
+# Repositorio exclusivo para evaluación formativa de DevOps
+
+- Archivos md: Changelog.md, Contributing.md y Readme.md (Markdown).
