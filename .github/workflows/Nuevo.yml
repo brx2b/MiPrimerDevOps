@@ -1,0 +1,19 @@
+name: Actividad
+
+on:
+  push:
+    branches: [ feature ]
+  pull_request:
+    branches: [ feature ]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Validar archivos markdown
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          config: .markdownlint.json
